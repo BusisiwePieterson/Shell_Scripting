@@ -19,3 +19,35 @@ A shell script is a list of commands in a computer program that is run by the Un
 - Shortcuts
 
     There is a shortcut provided by a shell script for a system command where command options, environment settings or post processing apply. This still allows the shortcut script to act as a Unix command.
+
+![images](images/Screenshot_1.png)
+
+![images](images/Screenshot_2.png)
+
+![images](images/Screenshot_3.png)
+
+![images](images/Screenshot_4.png)
+
+![images](images/Screenshot_5.png)
+
+![images](images/Screenshot_6.png)
+
+![images](images/Screenshot_7.png)
+
+![images](images/Screenshot_8.png)
+
+![images](images/Screenshot_9.png)
+
+![images](images/Screenshot_10.png)
+
+![images](images/Screenshot_11.png)
+
+![images](images/Screenshot_12.png)
+
+![images](images/Screenshot_13.png)
+
+![images](images/Screenshot_14.png)
+
+![images](images/Screenshot_15.png)
+
+![images](images/Screenshot_16.png)
