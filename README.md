@@ -51,7 +51,7 @@ Since we want to keep our scripts we will be using VSCode.
 
 ![images](images/Screenshot_9.png)
 
-Here we have `echo Hello World` in our `myscript.sh` file, we will output the result into a new file `index.sh`
+Here we have a script `echo Hello World` in our `myscript.sh` file, we will output the result into a new file `index.sh`
 
 ![images](images/Screenshot_10.png)
 
