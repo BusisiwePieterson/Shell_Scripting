@@ -1,6 +1,6 @@
 # Shell_Scripting
 
-![images](images/shell.webp)
+<img src='images/shell.webp' width='350' height='180'>
 
 ### **What is Shell Scripting?**
 
@@ -51,3 +51,11 @@ A shell script is a list of commands in a computer program that is run by the Un
 ![images](images/Screenshot_15.png)
 
 ![images](images/Screenshot_16.png)
+
+![images](images/Screenshot_17.png)
+
+![images](images/Screenshot_18.png)
+
+![images](images/Screenshot_20.png)
+
+![images](images/Screenshot_21.png)
