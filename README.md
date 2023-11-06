@@ -24,7 +24,7 @@ A shell script is a list of commands in a computer program that is run by the Un
 Shell scripts can be written in either a code editor like VSCode or you can use nano/ vim.
 Since we want to keep our scripts we will be using VSCode. 
 
-- Create a folder - mkdir `shell_scripting`
+- Create a folder - `mkdir shell_scripting`
 - cd into the folder - `desktop/shell_scripting`
 - create the file for the shell script - `touch myscript.sh`
 - open up VSCode `code .`
