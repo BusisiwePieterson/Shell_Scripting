@@ -51,17 +51,25 @@ Since we want to keep our scripts we will be using VSCode.
 
 ![images](images/Screenshot_9.png)
 
-Here we have a script `echo Hello World` in our `myscript.sh` file, we will output the result into a new file `index.sh`
+Here we have a script `echo Hello World` in our `myscript.sh` file, we will output the content into a new file `index.sh`
 
 ![images](images/Screenshot_10.png)
 
-Below we see the output of `myscript.sh` in the new file
+Below we see the content of `myscript.sh` in the new file
 
 ![images](images/Screenshot_11.png)
+
+We can also pass the content of a file as input to a command.
+
+`grep "demonstrate" < input.txt` - this will search for matching patterns in the `input.txt` file
+
 
 ![images](images/Screenshot_12.png)
 
 ![images](images/Screenshot_13.png)
+
+**Functions**: Functions in bash scripting are a great option to reuse code. A Bash function can be defined as a set of commands which can be called several times within bash script. The purpose of function in bash is to help you make your scripts more readable and avoid writing the same code again and again.
+
 
 ![images](images/Screenshot_14.png)
 
