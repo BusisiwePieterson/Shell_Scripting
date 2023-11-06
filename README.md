@@ -45,6 +45,7 @@ Since we want to keep our scripts we will be using VSCode.
 
 **For loop** is a control structure that is used to perform repetitive tasks or execute a bunch of commands a specific number of times. With for loop, you can iterate through numbers, lists, files, or even directories.
 
+***
 
 3. **Input and Output**: The **read command**  is used to read input from the user or from a file and output the text using the echo command. You can also redirect input and output using operators like `>` output to a file, `<` input from a file, and `|`pipe the output of the one command as an input to another.
 
@@ -67,6 +68,8 @@ We can also pass the content of a file as input to a command.
 ![images](images/Screenshot_12.png)
 
 ![images](images/Screenshot_13.png)
+
+***
 
 5. **Functions**: Functions in bash scripting are a great option to reuse code. A Bash function can be defined as a set of commands which can be called several times within bash script. The purpose of function in bash is to help you make your scripts more readable and avoid writing the same code again and again.
 
@@ -156,10 +159,149 @@ Below is the expected output in the terminal:
 
 ## File Operations and Sorting
 
+We will be writing a script that focuses on File Operations and Sorting.
+
+This script creates three files `file1.txt, file2.txt, file3.txt`, displays the files in their current order. sorts them alphabetically, saves the sorted files in `sorted_files.txt`, displays the sorted files, removes the originalfiles, renames the sorted file to `sorted_files_sorted_alphabetically.txt` and finally displays the contents of the sorted file.
+
+Step 1: Create a file `touch sorting.sh`
+
+Step 2: Copy and paste the code block below into the file:
+
+```
+#!/bin/bash
+
+# Create three files
+echo "Creating files..."
+echo "This is file3." > file3.txt
+echo "This is file1." > file1.txt
+echo "This is file2." > file2.txt
+echo "Files created."
+
+# Display the files in their current order
+echo "Files in their current order:"
+ls
+
+# Sort the files alphabetically
+echo "Sorting files alphabetically..."
+ls | sort > sorted_files.txt
+echo "Files sorted."
+
+# Display the sorted files
+echo "Sorted files:"
+cat sorted_files.txt
+
+# Remove the original files
+echo "Removing original files..."
+rm file1.txt file2.txt file3.txt
+echo "Original files removed."
+
+# Rename the sorted file to a more descriptive name
+echo "Renaming sorted file..."
+mv sorted_files.txt sorted_files_sorted_alphabetically.txt
+echo "File renamed."
+
+# Display the final sorted file
+echo "Final sorted file:"
+cat sorted_files_sorted_alphabetically.txt
+
+```
+
+Step 3: Set the execute permission `sudo chmod +x sorting.sh`
+
+Step 4: Run your script using `./sorting.sh`
+
+
 ![images](images/Screenshot_17.png)
+
 
 ![images](images/Screenshot_18.png)
 
+### Working with Numbers and Calculations
+
+This script defines two variables num1 and num2 with numeric values, performs basic arithmetic operations(addition, subtraction, multiplication,division and modulus), and displays the results. It also performs more complex calculations such as raising num1 to the pwer of 2 and calculating the square root of num2, amd displays thos results as well.
+
+Step 1: create a new file `tocuh calculations.sh`
+
+Step 2: Copy and paste the code below:
+
+```
+#!/bin/bash
+
+# Define two variables with numeric values
+num1=10
+num2=5
+
+# Perform basic arithmetic operations
+sum=$((num1 + num2))
+difference=$((num1 - num2))
+product=$((num1 * num2))
+quotient=$((num1 / num2))
+remainder=$((num1 % num2))
+
+# Display the results
+echo "Number 1: $num1"
+echo "Number 2: $num2"
+echo "Sum: $sum"
+echo "Difference: $difference"
+echo "Product: $product"
+echo "Quotient: $quotient"
+echo "Remainder: $remainder"
+
+# Perform some more complex calculations
+power_of_2=$((num1 ** 2))
+square_root=$(echo "sqrt($num2)" | bc)
+
+# Display the results
+echo "Number 1 raised to the power of 2: $power_of_2"
+echo "Square root of number 2: $square_root"
+
+```
+
+Step 3: Set the execute permission `sudo chmod +x calculations.sh`
+
+Step 4: Run your script using `./calculations.sh`
+
 ![images](images/Screenshot_20.png)
 
+## File Backup and Timestamping
+
+This shell script focuses on file backup and timestamp.
+
+This script defines the source directory and backup directory paths. It then creates a timestamp appended to its name. This script then copies all files from the source directory to the backup directory using the cp command with the `-r` option for recursive copying. Finally, it displays a message indicating the completion of the backup process and shows the path of the backup directory with the timestamp.
+
+Step 1: Create a file `touch backup.sh`
+
+Step 2: Copy and paste the code bock belwo into the file.
+
+```
+#!/bin/bash
+
+# Define the source directory and backup directory
+source_dir="/path/to/source_directory"
+backup_dir="/path/to/backup_directory"
+
+# Create a timestamp with the current date and time
+timestamp=$(date +"%Y%m%d%H%M%S")
+
+# Create a backup directory with the timestamp
+backup_dir_with_timestamp="$backup_dir/backup_$timestamp"
+
+# Create the backup directory
+mkdir -p "$backup_dir_with_timestamp"
+
+# Copy all files from the source directory to the backup directory
+cp -r "$source_dir"/* "$backup_dir_with_timestamp"
+
+# Display a message indicating the backup process is complete
+echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
+
+```
+
+Step 3: Set execute permission `sudo chmod +x backup.sh`
+
+Step 4: Run your script `./backup.sh`
+
 ![images](images/Screenshot_21.png)
+
+
+# THE END !!!
