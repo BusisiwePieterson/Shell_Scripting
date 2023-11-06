@@ -39,8 +39,11 @@ Since we want to keep our scripts we will be using VSCode.
 ![images](images/Screenshot_3.png)
 
 
+**Control Flow**: Bash **if-else** statements are used to perform conditional tasks in the sequential flow of execution of statements. Sometimes, we want to process a specific set of statements if a condition is true, and another set of statements if it is false. To perform such type of actions, we can apply the if-else mechanism.
 
 ![images](images/Screenshot_4.png)
+
+**For loop** is a control structure that is used to perform repetitive tasks or execute a bunch of commands a specific number of times. With for loop, you can iterate through numbers, lists, files, or even directories.
 
 ![images](images/Screenshot_5.png)
 
