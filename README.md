@@ -45,17 +45,17 @@ Since we want to keep our scripts we will be using VSCode.
 
 **For loop** is a control structure that is used to perform repetitive tasks or execute a bunch of commands a specific number of times. With for loop, you can iterate through numbers, lists, files, or even directories.
 
-![images](images/Screenshot_5.png)
 
-![images](images/Screenshot_6.png)
+**Input and Output**: The **read command**  is used to read input from the user or from a file and output the text using the echo command. You can also redirect input and output using operators like `>` output to a file, `<` input from a file, and `|`pipe the output of the one command as an input to another.
 
-![images](images/Screenshot_7.png)
-
-![images](images/Screenshot_8.png)
 
 ![images](images/Screenshot_9.png)
 
+Here we have `echo Hello World` in our `myscript.sh` file, we will output the result into a new file `index.sh`
+
 ![images](images/Screenshot_10.png)
+
+Below we see the output of `myscript.sh` in the new file
 
 ![images](images/Screenshot_11.png)
 
