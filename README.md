@@ -34,7 +34,7 @@ Since we want to keep our scripts we will be using VSCode.
 
 ## Shell Scripting Syntax
 
-**Variables**: Variables are used to store information to be referenced, this can be of various types such as numbers, strings and arrays. You can assgn values to variables using the **=** operator. To access the value of the variable use the **$** e.g `$variable_name`
+**Variables**: Variables are used to store information to be referenced, this can be of various types such as numbers, strings and arrays. You can assign values to variables using the **=** operator. To access the value of the variable use the **$** symbol e.g `$variable_name`
 
 ![images](images/Screenshot_3.png)
 
