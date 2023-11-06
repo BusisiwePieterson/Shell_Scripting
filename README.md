@@ -27,7 +27,7 @@ Since we want to keep our scripts we will be using VSCode.
 - Create a folder - `mkdir shell_scripting`
 - cd into the folder - `desktop/shell_scripting`
 - create the file for the shell script - `touch myscript.sh`
-- open up VSCode `code .`
+- open up VSCode - `code .`
 ![images](images/Screenshot_1.png)
 
 ![images](images/Screenshot_2.png)
