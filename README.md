@@ -31,11 +31,8 @@ Since we want to keep our scripts we will be using VSCode.
 
 ![images](images/Screenshot_1.png)
 
-- To make the file executable run - `chmod +x <file_name>`
 
-![images](images/Screenshot_2.png)
-
-### Shell Scripting Syntax
+## Shell Scripting Syntax
 
 **Variables**: Variables are used to store information to be referenced, this can be of various types such as numbers, strings and arrays. You can assgn values to variables using the **=** operator.
 
