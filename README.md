@@ -31,6 +31,8 @@ Since we want to keep our scripts we will be using VSCode.
 
 ![images](images/Screenshot_1.png)
 
+- To make the file executable run - `chmod +x <file_name>`
+
 ![images](images/Screenshot_2.png)
 
 ![images](images/Screenshot_3.png)
