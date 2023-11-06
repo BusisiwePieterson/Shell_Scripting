@@ -19,7 +19,7 @@ A shell script is a list of commands in a computer program that is run by the Un
 - Shortcuts
 
     There is a shortcut provided by a shell script for a system command where command options, environment settings or post processing apply. This still allows the shortcut script to act as a Unix command.
-## Introduction to Shell and User Input
+## Introduction to Shell Scripting and User Input
 
 Shell scripts can be written in either a code editor like VSCode or you can use nano/ vim.
 Since we want to keep our scripts we will be using VSCode. 
@@ -35,7 +35,13 @@ Since we want to keep our scripts we will be using VSCode.
 
 ![images](images/Screenshot_2.png)
 
+### Shell Scripting Syntax
+
+**Variables**: Variables are used to store information to be referenced, this can be of various types such as numbers, strings and arrays. You can assgn values to variables using the **=** operator.
+
 ![images](images/Screenshot_3.png)
+
+
 
 ![images](images/Screenshot_4.png)
 
