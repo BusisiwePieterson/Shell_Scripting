@@ -1,6 +1,6 @@
 # Shell_Scripting
 
-<img src='images/shell.webp' width='350' height='180'>
+<img src='images/shell.webp' width='950' height='350'>
 
 ### **What is Shell Scripting?**
 
